@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SwiftFile: UIViewController {
     let defaults = UserDefaults.standard
-
+    
     var counter = 0
     var increment = 1
     
@@ -36,16 +36,32 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    @IBAction func BigBadButton(_ sender: Any) {
-        counter += increment
-        LabelAF.text = String(counter)
-        save()
-        
+    
+    
+    @IBAction func plus10(_ sender: Any) {
+        if(counter >= 10)
+        {
+            increment += 10
+            counter -= 10
+            
+        }
     }
     
-    @IBOutlet weak var LabelAF: UILabel!
+    @IBAction func plus100(_ sender: Any) {
+        if(counter >= 1000)
+        {
+            increment += 1000
+            counter -= 1000
+        }
+    }
     
+    @IBAction func plus1000(_ sender: Any) {
+        if(counter >= 100000)
+        {
+            increment += 100000
+            counter -= 100000
+        }
+    }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         print("Segue")
         if(segue.identifier == "DStorington" || segue.identifier == "Backington"){
@@ -56,11 +72,10 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBOutlet weak var PressTheButton: UILabel!
-    
     func save(){
         defaults.set(counter,forKey: "cookie.counter")
         defaults.set(increment,forKey: "cookie.increment")
     }
 }
+
 

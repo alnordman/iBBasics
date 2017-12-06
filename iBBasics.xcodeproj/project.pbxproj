@@ -14,6 +14,8 @@
 		402E8B7E1FCCAC9E00C81A42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 402E8B7C1FCCAC9E00C81A42 /* LaunchScreen.storyboard */; };
 		402E8B891FCCAC9F00C81A42 /* iBBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E8B881FCCAC9F00C81A42 /* iBBasicsTests.swift */; };
 		402E8B941FCCAC9F00C81A42 /* iBBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402E8B931FCCAC9F00C81A42 /* iBBasicsUITests.swift */; };
+		404B4A4D1FD0A9990061EC64 /* storeImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = 404B4A4C1FD0A9990061EC64 /* storeImage.gif */; };
+		40D82B1F1FD5EDBB00CA8AC9 /* SwiftFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D82B1E1FD5EDBB00CA8AC9 /* SwiftFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		402E8B8F1FCCAC9F00C81A42 /* iBBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		402E8B931FCCAC9F00C81A42 /* iBBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBBasicsUITests.swift; sourceTree = "<group>"; };
 		402E8B951FCCAC9F00C81A42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404B4A4C1FD0A9990061EC64 /* storeImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = storeImage.gif; sourceTree = "<group>"; };
+		40D82B1E1FD5EDBB00CA8AC9 /* SwiftFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 				402E8B731FCCAC9E00C81A42 /* AppDelegate.swift */,
 				402E8B751FCCAC9E00C81A42 /* ViewController.swift */,
 				402E8B771FCCAC9E00C81A42 /* Main.storyboard */,
+				40D82B1E1FD5EDBB00CA8AC9 /* SwiftFile.swift */,
 				402E8B7A1FCCAC9E00C81A42 /* Assets.xcassets */,
+				404B4A4C1FD0A9990061EC64 /* storeImage.gif */,
 				402E8B7C1FCCAC9E00C81A42 /* LaunchScreen.storyboard */,
 				402E8B7F1FCCAC9E00C81A42 /* Info.plist */,
 			);
@@ -234,6 +240,7 @@
 			files = (
 				402E8B7E1FCCAC9E00C81A42 /* LaunchScreen.storyboard in Resources */,
 				402E8B7B1FCCAC9E00C81A42 /* Assets.xcassets in Resources */,
+				404B4A4D1FD0A9990061EC64 /* storeImage.gif in Resources */,
 				402E8B791FCCAC9E00C81A42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +268,7 @@
 			files = (
 				402E8B761FCCAC9E00C81A42 /* ViewController.swift in Sources */,
 				402E8B741FCCAC9E00C81A42 /* AppDelegate.swift in Sources */,
+				40D82B1F1FD5EDBB00CA8AC9 /* SwiftFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
